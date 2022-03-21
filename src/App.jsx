@@ -59,6 +59,17 @@ function App() {
     },
   });
 
+  var something = "The string to use";
+  let notThis = "Not this one";
+
+  function test() {
+    let something = "new";
+    console.log(something);
+    console.log(notThis);
+  }
+
+  test();
+
   return (
     <>
       <ThemeProvider theme={theme}>
