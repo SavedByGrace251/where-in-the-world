@@ -1,0 +1,2 @@
+export { Favorites }
+from './Page';
